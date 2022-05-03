@@ -1,0 +1,96 @@
+body{
+    /* background: url(body-building-workout-royalty-free-image-612262390-1535040444.jpg); */
+    background-image: url(body-building-workout-royalty-free-image-612262390-1535040444.jpg);
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 59px;
+    top: 50px;
+}
+.left div{
+    text-align: center;
+    line-height: 46px;
+    font-size: 32px;
+}
+.left img{
+    width: 176px;
+}
+.mid{
+    /* border:2px solid red; */
+    display: block;
+    margin: 74px auto;
+    width: 28%;
+    /* display: inline-block; */
+}
+.right{
+    /* border:2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 30px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+.btn{
+    margin: 66px 3px;
+    background-color: black;
+    color: white;
+    padding: 7px 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.btn:hover{
+    background-color: rgb(165, 212, 253);
+}
+.container{
+    /* border: 2px solid rgb(255, 255, 255); */
+    margin: 241px 101px;
+    padding: 57px 71px;
+    width: 30%;
+    border-radius: 30px;
+}
+.form-group input{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    border: 2px solid yellow;
+    display: block;
+    width: 520px;
+    padding: 11px 67px;
+    text-align: center;
+    margin: 26px auto;
+    font-size: 28px;
+    border-radius: 10px;
+}
+.container h2 {
+    text-align: center;
+    font-size: 58px;
+}
+.container button{
+    display: block;
+    width: 543px;
+    margin: 37px auto;
+}
